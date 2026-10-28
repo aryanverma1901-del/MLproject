@@ -22,6 +22,6 @@ name='mlproject',
 version='0.0.1',
 author='Aryan Verma',
 author_email='AryanVerma1901@gmail.com', 
-package=find_packages(),
+packages=find_packages(),
 install_requires=get_requirements('requirements.txt')
 )
